@@ -27,7 +27,7 @@ loss.py Dual network loss function in joint learning component
 modelMLP.py Network model in joint learning component  
 dataset/:Store the data set needed for the experiment  
 
-CCL_baseline/:Store the baseline and experimental code of CCL  
+* CCL_baseline/:Store the baseline and experimental code of CCL  
    CCL\：CCL model  
    IF\：Isolation Forest（IF）as a baseline  
    OSS\：One-Sided Selection（OSS）as a baseline  
@@ -36,25 +36,25 @@ CCL_baseline/:Store the baseline and experimental code of CCL
    RSDS\：Random Space Division Sampling（RSDS）as a baseline  
    E2SC\：An Effective, Efficient, and Scalable Confidence-Based Instance Selection（E2SC）as a baseline  
 
-CCL_structure/:Experimental code of RQ2  
+* CCL_structure/:Experimental code of RQ2  
    CCL.py：CCL model  
    c1.py：Single network structure  
    CT.py：Only the joint learning component  
    CL.py：Only the data denoising component  
    
-CCL_classifier/:Experimental code of RQ3  
+* CCL_classifier/:Experimental code of RQ3  
    ORI-LR.py：The CCL model uses the LR as a network  
    ORI-MLP.py：The CCL model uses the MLP as a network  
    CCL-LR.py：Only a single LR is used as a JIT defect prediction model  
    CCL-SVM.py：Only a single MLP is used as a JIT defect prediction model  
 
-CCL_imbalanced/:Experimental code of RQ4  
+* CCL_imbalanced/:Experimental code of RQ4  
    CCL-weight.py：Weight class unbalance treatment is adopted  
    CCL-ros.py：ROS class unbalance treatment is adopted  
    CCL-rus.py：RUS class unbalance treatment is adopted  
    CCL-SMOTE.py：SMOTE class unbalance treatment is adopted  
 
-CCL_different_SZZ/:Experimental code of RQ5  
+* CCL_different_SZZ/:Experimental code of RQ5  
    c1-B.py：Raw B-SZZ performance results  
    c1-AG.py：Raw AG-SZZ performance results  
    c1-MA.py：Raw MA-SZZ performance results  
