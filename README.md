@@ -31,7 +31,7 @@ dataset/:Store the data set needed for the experiment
    CCL\：CCL model  
    IF\：Isolation Forest（IF）as a baseline  
    OSS\：One-Sided Selection（OSS）as a baseline  
-   CLNI\：Closest List Noise Identification (CLNI) as a baseline  
+   CLNI\：Closest List Noise Identification (CLNI) as a baseline
    GBS\：Granular Ball Sampling（GBS）as a baseline  
    RSDS\：Random Space Division Sampling（RSDS）as a baseline  
    E2SC\：An Effective, Efficient, and Scalable Confidence-Based Instance Selection（E2SC）as a baseline  
@@ -62,4 +62,8 @@ dataset/:Store the data set needed for the experiment
    CCL-B.py：CCL is applied in B-SZZ  
    CCL-AG.py：CCL is applied in AG-SZZ  
    CCL-MA.py：CCL is applied in MA-SZZ  
-   CCL-RA.py：CCL is applied in RA-SZZ  
+   CCL-RA.py：CCL is applied in RA-SZZ
+  
+* oracle/:Storing oracle test(Manually annotated JDT project)
+
+* SZZ/:The SZZ algorithm marks code changes to determine whether defects are introduced
